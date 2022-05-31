@@ -1,7 +1,8 @@
-var showState = function (person) {
+"use strict";
+const showState = (person) => {
     return person.name + " is " + (person.isHungry ? "hungry" : "not hungry");
 };
-var anakin = {
+let anakin = {
     name: "Anakin Skywalker",
     isHungry: true,
     children: ['Luke', 'Leia']

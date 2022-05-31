@@ -1,0 +1,13 @@
+"use strict";
+let hello = 5;
+let hi = "5";
+console.log(hello, hi);
+let myBool = true;
+console.log(myBool);
+let numArr = [11, 23];
+let strArr = ['11', "meow", '1m'];
+let numArrTuple = ['12', 13, 14];
+console.log(numArr, strArr, numArrTuple);
+let myUnion;
+myUnion = 46;
+console.log(myUnion);

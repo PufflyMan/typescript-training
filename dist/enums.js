@@ -1,10 +1,11 @@
+"use strict";
 var Colors;
 (function (Colors) {
     Colors[Colors["RED"] = 0] = "RED";
     Colors[Colors["BLUE"] = 1] = "BLUE";
     Colors[Colors["GREEN"] = 2] = "GREEN";
 })(Colors || (Colors = {}));
-var myColor = Colors.GREEN;
+let myColor = Colors.GREEN;
 var Days;
 (function (Days) {
     Days[Days["MONDAY"] = 0] = "MONDAY";
@@ -15,7 +16,7 @@ var Days;
     Days[Days["SATURDAY"] = 5] = "SATURDAY";
     Days[Days["SUNDAY"] = 6] = "SUNDAY";
 })(Days || (Days = {}));
-var getDailyMessage = function (day) {
+const getDailyMessage = (day) => {
     switch (day) {
         case Days.MONDAY:
             return "Get a coffee and get busy";
